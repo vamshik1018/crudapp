@@ -1,7 +1,7 @@
 
-create database CRUDAPP-DB;
+create database CRUDAPPDB;
 
-use CRUDAPP-DB;
+use CRUDAPPDB;
 
 CREATE TABLE student (
   studentId int(5) NOT NULL AUTO_INCREMENT,
@@ -11,4 +11,4 @@ CREATE TABLE student (
   year int(2) DEFAULT NULL,
  PRIMARY KEY (studentId));
  
-GRANT ALL ON CRUDAPP-DB.* TO <new-user>@<internal IP of DB> IDENTIFIED BY '<new-password>';
+GRANT ALL ON CRUDAPPDB.* TO <new-user>@<internal IP of DB> IDENTIFIED BY '<new-password>';
