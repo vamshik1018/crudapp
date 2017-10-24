@@ -1,5 +1,0 @@
-com/app/model/Student.class
-com/app/util/DBConnectionUtility.class
-com/app/dao/StudentDaoImpl.class
-com/app/servlet/StudentServlet.class
-com/app/dao/StudentDao.class
